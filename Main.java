@@ -1,3 +1,4 @@
+import behaviors.swim.*;
 import ducks.*;
 
 
@@ -16,6 +17,12 @@ public class Main {
         woodenDuck.display();
         woodenDuck.performFly();
         woodenDuck.performQuack();
+        woodenDuck.performSwim();
+
+        System.out.println("\nNow, let's modify wooden duck's behavior...");
+        woodenDuck.setSwimBehavior(new Sink());
+
+        woodenDuck.display();
         woodenDuck.performSwim();
                 
     }

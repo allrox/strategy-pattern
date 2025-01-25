@@ -2,12 +2,12 @@ package ducks;
 
 import behaviors.fly.DoesntFly;
 import behaviors.quack.Mute;
-import behaviors.swim.Sink;
+import behaviors.swim.Float;
 
 public class WoodenDuck extends Duck {
     
     public WoodenDuck(){
-        super(new DoesntFly(), new Mute(), new Sink());
+        super(new DoesntFly(), new Mute(), new Float());
     }
 
     @Override
