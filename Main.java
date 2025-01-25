@@ -24,6 +24,13 @@ public class Main {
 
         woodenDuck.display();
         woodenDuck.performSwim();
+        System.out.println("\n");
+
+        Duck africanDuck = new AfricanDuck();
+        africanDuck.display();
+        africanDuck.performFly();
+        africanDuck.performQuack();
+        africanDuck.performSwim();
                 
     }
     

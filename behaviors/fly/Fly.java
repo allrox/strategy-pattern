@@ -1,6 +1,6 @@
 package behaviors.fly;
 
-public class FlyWithWings implements FlyBehavior {
+public class Fly implements FlyBehavior {
     @Override
     public void fly(){
         System.out.println("I can fly!");
